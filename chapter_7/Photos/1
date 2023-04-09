@@ -1,0 +1,23 @@
+/usr/bin/bunzip2:       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=04942293e732cd520714440dfeee0087129ea3ac, for GNU/Linux 3.2.0, stripped
+/usr/bin/bzip2:         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=04942293e732cd520714440dfeee0087129ea3ac, for GNU/Linux 3.2.0, stripped
+/usr/bin/bzip2recover:  ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=2bafecb9d377975194d73514f413837ecbf22087, for GNU/Linux 3.2.0, stripped
+/usr/bin/fcrackzip:     ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=ae8248cdedc6a974619cf15b494248ee6244db4c, for GNU/Linux 3.2.0, stripped
+/usr/bin/fcrackzipinfo: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=642de91d17e1956c705a51ce6910b56f533b7882, for GNU/Linux 3.2.0, stripped
+/usr/bin/funzip:        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=ef529e62a1f289091aafa10a4cbd603cb45d9351, for GNU/Linux 3.2.0, stripped
+/usr/bin/gpg-zip:       POSIX shell script, ASCII text executable
+/usr/bin/gunzip:        POSIX shell script, ASCII text executable
+/usr/bin/gzip:          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=a7668faa2322e181773d5cba4bc5d8fd41e9b7c9, for GNU/Linux 3.2.0, stripped
+/usr/bin/p7zip:         POSIX shell script, ASCII text executable
+/usr/bin/preunzip:      POSIX shell script, ASCII text executable
+/usr/bin/prezip:        POSIX shell script, ASCII text executable
+/usr/bin/prezip-bin:    ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=feaae56fc7576045f08a18c5246a8e12f8627ef3, for GNU/Linux 3.2.0, stripped
+/usr/bin/streamzip:     Perl script text executable
+/usr/bin/unzip:         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=4106d53017564c3c40ab5688ee70b9d86c5d837a, for GNU/Linux 3.2.0, stripped
+/usr/bin/unzipsfx:      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=fd982c7e1a3ea04a27a73f7949cf74d08d24e150, for GNU/Linux 3.2.0, stripped
+/usr/bin/zip:           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=f4e3c129a9a184aecb256650d23ed3d92bcd60db, for GNU/Linux 3.2.0, stripped
+/usr/bin/zipcloak:      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=754f1c0c2e6121523bd6aa727edda9ba78a412bc, for GNU/Linux 3.2.0, stripped
+/usr/bin/zipdetails:    Perl script text executable
+/usr/bin/zipgrep:       POSIX shell script, ASCII text executable
+/usr/bin/zipinfo:       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=4106d53017564c3c40ab5688ee70b9d86c5d837a, for GNU/Linux 3.2.0, stripped
+/usr/bin/zipnote:       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=d9767497cc1031aede878521f2ac5fa2e8624519, for GNU/Linux 3.2.0, stripped
+/usr/bin/zipsplit:      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=51da7916620d0df5639cdc76ffbfdcda1860bf7e, for GNU/Linux 3.2.0, stripped
