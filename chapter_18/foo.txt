@@ -39,7 +39,7 @@ drwxr-xr-x    - root 19 апр  2022  cron.hourly
 drwxr-xr-x    - root 19 апр  2022  cron.monthly
 drwxr-xr-x    - root 19 апр  2022  cron.weekly
 .rw-r--r-- 1,1k root 23 мар  2022  crontab
-drwxr-xr-x    - root 19 апр 19:10  cups
+drwxr-xr-x    - root 19 апр 20:08  cups
 drwxr-xr-x    - root 19 апр  2022  cupshelpers
 drwxr-xr-x    - root 19 апр  2022  dbus-1
 drwxr-xr-x    - root 19 апр  2022  dconf
