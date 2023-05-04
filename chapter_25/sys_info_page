@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-TITLE="System Information Report for $HOSTNAME"
+decrale -r TITLE="System Information Report for $HOSTNAME"
 
 echo "<html>
     <head>
