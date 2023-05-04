@@ -5,21 +5,30 @@ CURRENT_TIME="$(date +"%x %r %z")"
 TIME_STAMP="Generated $CURRENT_TIME, by $USER"
 
 function report_uptime() {
-    echo "Function report_uptime executed"
+    cat <<_EOF_
+<h2>System Uptime</h2>
+        <pre>$(uptime)</pre>
+_EOF_
     return
 }
 
 function report_disk_space() {
-    echo "Function report_disk_space executed"
+    cat <<_EOF_
+<h2>Disk Space Utilization</h2>
+        <pre>$(df -h)</pre>
+_EOF_
     return
 }
 
 function report_home_space() {
-    echo "Function report_home_space executed"
+    cat <<_EOF_
+<h2>Home Space Utilization</h2>
+        <pre>$(du -sh /home/* 2>/dev/null)</pre>
+_EOF_
     return
 }
 
-cat <<_EOF_
+cat <<-_EOF_
 <html>
     <head>
         <title>$TITLE</title>
