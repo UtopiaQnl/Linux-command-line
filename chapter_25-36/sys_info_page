@@ -21,10 +21,10 @@ _EOF_
 }
 
 function report_home_space() {
-    cat <<_EOF_
+    cat << _
 <h2>Home Space Utilization</h2>
         <pre>$(du -sh /home/* 2>/dev/null)</pre>
-_EOF_
+_
     return
 }
 
