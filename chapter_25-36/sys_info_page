@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
-declare -r TITLE="System Information Report for $HOSTNAME"
+PROGNAME="$(basename "$0")"
+TITLE="System Information Report For $HOSTNAME"
 CURRENT_TIME="$(date +"%x %r %z")"
 TIME_STAMP="Generated $CURRENT_TIME, by $USER"
+
 
 function report_uptime() {
     cat <<_EOF_
@@ -35,7 +37,13 @@ EOF
     return
 }
 
-cat <<-_EOF_
+function usage() {
+    echo "$PROGNAME: usage: $PROGNAME [-f file | -i]"
+    return
+}
+
+function write_html_page() {
+    cat <<-_EOF_
 <html>
     <head>
         <title>$TITLE</title>
@@ -49,3 +57,64 @@ cat <<-_EOF_
     </body>
 </html>
 _EOF_
+}
+
+
+interactive=
+filename=
+while [[ -n "$1" ]]; do
+    case "$1" in
+    -f | --file)
+        shift
+        filename="$1"
+        ;;
+    -i | --interactive)
+        interactive=1
+        ;;
+    -h | --help)
+        usage
+        exit
+        ;;
+    *)
+        usage >&2
+        exit 1
+        ;;
+    esac
+    shift
+done
+
+if [[ -n "$interactive" ]]; then
+    while true; do
+        read -rp "Enter name of output file: " filename
+        if [[ -e "$filename" ]]; then
+            read -rp "'$filename' exists. Overwrite? [y/n/q]: "
+            case "$REPLY" in
+            y | Y | yes | YES)
+                break
+                ;;
+            Q | q | quit | exit | QUIT | EXIT)
+                echo "Program terminated."
+                exit
+                ;;
+            *)
+                continue
+                ;;
+            esac
+        elif [[ -z "$filename" ]]; then
+            continue
+        else
+            break
+        fi
+    done
+fi
+
+if [[ -n "$filename" ]]; then
+    if touch "$filename" && [[ -f "$filename" ]]; then
+        write_html_page >"$filename"
+    else
+        echo "$PROGNAME: Cannot write file '$filename'" >&2
+        exit 1
+    fi
+else
+    write_html_page
+fi
