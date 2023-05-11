@@ -1,53 +1,51 @@
-
-    <!DOCTYPE HTML>
-    <html lang="en">
-
-    <head>
-
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
     <title>LinuxCommand.org: Learn The Linux Command Line. Write Shell Scripts.</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="description" content="LinuxCommand.org is a web site that helps users discover the power of the Linux command line.">
-    <meta name="keywords" content="Linux command line, Linux shell scripting, GNU coreutils, Linux console, bash shell, bash shell scripting, Linux CLI">
-    <meta name="author" content="William Shotts, Jr.">
-    <meta name="copyright" content="Copyright 2000-2023, William Shotts, Jr.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-    <link rel="stylesheet" type="text/css" href="linuxcommand5.css">
-    </head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="description" content="LinuxCommand.org is a web site that helps users discover the power of the Linux command line.">
+      <meta name="keywords" content="Linux command line, Linux shell scripting, GNU coreutils, Linux console, bash shell, bash shell scripting, Linux CLI">
+      <meta name="author" content="William Shotts, Jr.">
+      <meta name="copyright" content="Copyright 2000-2023, William Shotts, Jr.">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" type="image/png" href="favicon.png">
+      <link rel="stylesheet" type="text/css" href="linuxcommand5.css">
+  </head>
 
-    <body>
-
+  <body>
     <div class="grid-container">
-    <div class="colorblock-red">
-    </div><!-- colorblock-red -->
-    <div class="title-img">
-      <img src="images/lc3_logo_1-5.png" width="792" height="115" alt="Title graphic">
-    </div><!-- title-img -->
-    <div class="colorblock-white">
-    <div class="navbar">
-      <ul style="line-height: 150%;">
-        <li><a href="index.php">Home</a></li>
-        <li><a href="lc3_learning_the_shell.php">Learning&nbsp;the&nbsp;Shell</a></li>
-        <li><a href="lc3_writing_shell_scripts.php">Writing&nbsp;Shell&nbsp;Scripts</a></li>
-        <li><a href="lc3_resources.php">Resources</a></li>
-        <li><a href="tlcl.php">Books</a></li>
-        <li><a href="lc3_adventures.php">Adventures</a></li>
-      </ul>
-      <hr>
-      <ul>
-        <li><a href="https://lcorg.blogspot.com">Blog</a></li>
-      </ul>
-    </div><!-- navbar -->
-  
-    </div><!-- colorblock-white -->
+      <div class="colorblock-red">
+      </div><!-- colorblock-red -->
+
+      <div class="title-img">
+        <img src="images/lc3_logo_1-5.png" width="792" height="115" alt="Title graphic">
+      </div><!-- title-img -->
+
+      <div class="colorblock-white">
+        <div class="navbar">
+          <ul style="line-height: 150%;">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="lc3_learning_the_shell.php">Learning&nbsp;the&nbsp;Shell</a></li>
+            <li><a href="lc3_writing_shell_scripts.php">Writing&nbsp;Shell&nbsp;Scripts</a></li>
+            <li><a href="lc3_resources.php">Resources</a></li>
+            <li><a href="tlcl.php">Books</a></li>
+            <li><a href="lc3_adventures.php">Adventures</a></li>
+          </ul>
+          <hr>
+          <ul>
+            <li><a href="https://lcorg.blogspot.com">Blog</a></li>
+          </ul>
+        </div><!-- navbar -->
+    
+      </div><!-- colorblock-white -->
 
     <div id="top" class="main">
-<img src="images/Screenshot-Terminal.png"
-  alt="terminal display"
-  width="660"
-  height="442">
+      <img src="images/Screenshot-Terminal.png"
+        alt="terminal display"
+        width="660"
+        height="442">
     
-<h1>Now what?</h1>
+    <h1>Now what?</h1>
     
 <p>You have Linux installed and running. The GUI is working fine, but you are
 getting tired of changing your desktop themes. You keep seeing this "terminal"
