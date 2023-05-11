@@ -6,7 +6,7 @@ for i; do
         max_word=
         for j in $(strings "$i"); do
             len="${#j}"
-            if (( len > max_len )); then
+            if ((len > max_len)); then
                 max_len="$len"
                 max_word="$j"
             fi
